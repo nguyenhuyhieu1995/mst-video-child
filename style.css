@@ -1,0 +1,351 @@
+/*
+Theme Name: Video by MyThemeShop
+Theme URI: http://mythemeshop.com/themes/video/
+Author: MyThemeShop
+Author URI: http://mythemeshop.com/
+Description: Video is a media optimized theme for blogs that has a like/dislike feature, watch videos later feature, video playlist, and all the features you want in a blog for video and media content.
+Version: 2.1.9
+Template: mts_video
+Text Domain: video
+Domain path: /lang
+*/
+@import url("../mts_video/style.css");
+
+/*  */
+.sukien {
+    border: 2px solid #fa0000;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+.sukien > span {
+    display: block;
+    font-size: 18px;
+    padding: 10px 20px 10px 20px;
+
+   
+}
+
+
+span.sukien_thoigian{
+    color:#ff0033 !important;
+    font-size: 18px;
+}
+span.sukien_diadiem{
+    color:#ff0033;
+    font-size: 18px;
+}
+
+span.sukien_diengia{
+    color:#ff0033 !important;
+    font-size: 18px;
+}
+span.sukien_tochuc{
+    color:#ff0033;
+    font-size: 18px;
+}
+
+span.sukien_link{
+    color:#ff0033 !important;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #ff0033 !important;
+}
+
+span.category_sukien_diadiem {
+    color: #5a606b;
+   
+}
+span.category_sukien_thoigian {
+    color: #5a606b;
+    
+}
+a.sukien_tochuc:hover {
+    color: blue;
+}
+
+.category_sukien {
+    margin-top: 10px;
+}
+
+/* vieclam */
+.row.vieclam {
+    /* float: none; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: unset;
+    margin-right: 0;
+    margin-left: 0px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: -15px;
+    margin-bottom: 20px;
+    background-color:lavender;
+}
+
+.vieclam {
+    border: 2px solid #1f9eb3;
+    border-radius: 5px;
+  
+}
+
+a.vieclam_nophoso {
+    color: #ffffff !important;
+    background-color: #1f9eb3;
+    padding: 3px 8px 3px 8px;
+    float: right;
+}
+
+
+.vieclam > span {
+    display: block;
+    font-size: 18px;
+ 
+   
+}
+
+
+
+/* thiết lập ảnh của bài post */
+img.attachment-medium_large.size-medium_large.wp-post-image {
+    float: unset;
+   
+}
+
+.anh_su_kien {
+    text-align: center;
+  }
+
+  .wp-post-image {
+   float: none;
+}
+
+.single-title {
+    max-width: 100%;
+   
+}
+
+.single_post a:hover{
+    font-weight: bold !important;
+}
+
+/* khoa hoc */
+.khoa_hoc{
+    margin-bottom: 15px;
+}
+.thumbnail_khoa_hoc{
+    position: relative;
+    background-color: #f3f3f2;
+}
+
+.thumbnail_khoa_hoc_nen {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 106, 185);
+    position: absolute;
+    
+    top: 0px;
+    opacity: 0;
+    transition: all ease 0.9s;
+}
+.thumbnail_khoa_hoc:hover .thumbnail_khoa_hoc_nen{ 
+    opacity: 0.5;
+    top: 0px;
+}
+.khoa_hoc_mo_ta{
+    background-color: beige;
+
+}
+
+.khoa_hoc_hoc_mien_phi{
+    float: right;
+    background-color: rgb(18, 82, 112);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.khoa_hoc_hoc_mien_phi a{
+  color: white;
+}
+
+.khoa_hoc_hoc_mien_phi a:hover{
+    color: white !important;
+  }
+  
+.khoahoc_hocmienphi a {
+    float: right;
+    color: white;
+    background-color:  rgb(18, 82, 112);
+    padding: 3px 3px 3px 3px;
+}
+.khoahoc_hocmienphi a:hover {
+   
+    color: white !important;
+  
+}
+
+
+.khoa_hoc_tieu_de{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.khoa_hoc_tieu_de span{
+    color: #ff0033;
+    font-size: 20px;  
+    font-family: 'Pacifico', cursive;
+}
+.khoa_hoc_tieu_de b{
+    color: #ff0033;
+    font-size: 20px;  
+ 
+}
+.khoa_hoc_tieu_de a{
+  
+    float:right; 
+ 
+}
+.khoa_hoc_tieu_de .home-posts .latestPost {
+    clear: both;
+    overflow: hidden;
+    padding: 10px 0 15px;
+}
+
+.su_kien_posts{
+    padding-top: 0px !important;
+}
+/* bai_viet */
+.bai_viet .home-left{
+    margin-top: 0px !important;
+}
+
+.bai_viet .home-posts .latestPost {
+    clear: both;
+    overflow: hidden;
+    padding: 10px 0 10px;
+}
+
+.bai_viet .sidebar.c-4-12{
+    margin-top: 10px;
+}
+
+/* su_kien */
+.su_kien_posts.home-posts .latestPost {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+.su_kien_posts.home-left {
+    margin-top: 0px;
+}
+
+/* viec_lam */
+.viec_lam_posts.home-posts .latestPost {
+    padding-bottom: 15px;
+    padding-top: 10px;
+
+}
+.viec_lam_posts.home-left {
+    margin-top: 0px;
+}
+
+/*  */
+h1.title.entry-title {
+    text-align: center !important;
+}
+
+/* css countdown */
+#main_countedown_1 .time_left {
+    border-radius: 3px !important;
+    background-color: #E91E63 !important;
+    font-size: 23px;
+    font-family: monospace;
+    color: #ffffff !important;
+}
+#main_countedown_1 .time_description {
+    font-size: 18px !important;
+    font-family: monospace;
+    color: #000000;
+}
+#main_countedown_1 .countdown {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: blue !important;
+    font-weight: bold !important;
+}
+
+
+/* css */
+
+::-moz-selection { /* Code for Firefox */
+    color: rgb(0, 0, 0);
+    background: yellow;
+}
+
+::selection {
+    color: rgb(0, 0, 0); 
+    background: yellow;
+    
+}
+
+/*  */
+.col-sm-6 .fa {
+    padding-bottom: 10px;
+}
+.category_vieclam .col-sm-6 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+/*  */
+#searchform .fa-search, .woocommerce-product-search input[type="submit"] {
+    font-size: 16px;
+    top: 0px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-left: 0;
+    color: #2d2d2d;
+    position: absolute;
+    right: 0px;
+    padding: 0 8px;
+    line-height: 38px;
+    width: 55px;
+    text-align: center;
+}
+
+#s {
+    width: 85%;
+    background-color: #fff;
+    float: left;
+    padding: 11px 0;
+    text-indent: 10px;
+    color: #555555;
+    border: 1px solid #ddd;
+    max-height: 40px;
+    box-sizing: border-box;
+}
+/*  */
+.to-top {
+    float: right;
+    position: relative;
+    margin-left: 50px;
+}
+
+/*  */
+#load-posts a:hover{
+    color: white !important;
+}
+
+/* ẩn icon video ở Bài Viết Mới widget footer */
+footer .widget.widget_recent_entries li:before{
+    display: none;
+}
